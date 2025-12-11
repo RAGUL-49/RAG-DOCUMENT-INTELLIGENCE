@@ -31,7 +31,6 @@ streamlit run src/ui/app.py
 ---
 
 ## 📋 **File Structure You Need to Create:**
-```
 multidoc-intelliagent/
 ├── src/
 │   ├── ingestion/
@@ -77,6 +76,8 @@ multidoc-intelliagent/
 ├── README.md
 ├── .env.example
 
+```
+
 
 3. Documentation
 
@@ -120,3 +121,4 @@ Retrieval: <10ms for 100K vectors
 End-to-end Query: ~1 second (LLM dominates)
 
 Accuracy: 92.4% retrieval recall, 4.6/5 answer quality
+

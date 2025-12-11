@@ -76,10 +76,7 @@ multidoc-intelliagent/
 ├── requirements.txt
 ├── README.md
 ├── .env.example
-├── Dockerfile
-├── docker-compose.yml
-├── setup.sh
-└── Makefile
+
 
 3. Documentation
 
@@ -121,4 +118,5 @@ streamlit run app/streamlit_app.py
 Ingestion: ~8.7s for 50-page PDF
 Retrieval: <10ms for 100K vectors
 End-to-end Query: ~1 second (LLM dominates)
+
 Accuracy: 92.4% retrieval recall, 4.6/5 answer quality
